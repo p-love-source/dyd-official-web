@@ -98,7 +98,7 @@
           </div>
       </div>
       <div class="foot size24 white">
-        <p>浙ICP备17033271号</p>
+        <p> <a href="http://www.beian.miit.gov.cn"> 浙ICP备17033271号</a> </p>
         <p>营业执照：91330106MA28ME2761</p>
         <p>食品经营许可证：JY13301810016601</p>
         <p>杭州砍一砍网络科技有限公司</p>
@@ -380,5 +380,9 @@ export default {
   }
   .foot p{
     line-height: 0.36rem;
+  }
+  .foot p a {
+      text-decoration:none;
+      color: #fff;
   }
 </style>

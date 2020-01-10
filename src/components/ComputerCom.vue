@@ -199,7 +199,7 @@
             <!-- 底部 -->
             <li class="main-five main-box" ref="foot">
                 <div class="foot">
-                    <p>浙ICP备17033271号-2 营业执照：91330106MA28ME2761</p>
+                    <p> <a href="http://www.beian.miit.gov.cn">浙ICP备17033271号-2</a> 营业执照：91330106MA28ME2761</p>
                     <p>食品经营许可证：JY13301810016601 杭州砍一砍网络科技有限公司</p>
                 </div>
             </li>
@@ -682,6 +682,11 @@ export default {
     }
     .foot p:first-child{
         padding-top: 0.48rem;
+    }
+
+    .foot p a {
+        text-decoration:none;
+        color: #fff;
     }
 
 /* 关于我们 */
